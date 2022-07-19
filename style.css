@@ -5,10 +5,11 @@ body {
    font-family: 'Poppins', sans-serif;
    font-family: 'Roboto', sans-serif;
    margin: 0;
+   color: gray;
 
 }
 
-section {
+.fexible-conteiner {
    display: flex;
    padding: 5%;
 }
@@ -21,6 +22,20 @@ section {
    width: 100%;
 }
 
+.image-size {
+   padding: 15%;
+   height: 450px;
+   width: 200px;
+}
+
+.div-size {
+
+   padding-left: 15%;
+
+}
+
+
+
 .padding-top {
    padding-top: 80px;
 }
@@ -30,7 +45,7 @@ h1 {
    font-weight: 900;
 }
 
-.color {
+.color-orange {
    color: orange;
 }
 
@@ -42,7 +57,100 @@ h1 {
    color: white;
 }
 
+.link-button2 {
+   margin-top: 30px;
+}
+
 .top-banner {
    background-image: url(images/shapes/Frame\ 58.jpg);
    background-repeat: no-repeat;
+}
+
+.about-area {
+   background-image: url(images/shapes/Frame\ 57.jpg);
+   background-repeat: no-repeat;
+   height: 458px;
+   margin-bottom: 45px;
+}
+
+.recipies-site {
+   margin-bottom: 15px;
+}
+
+.center {
+   text-align: center;
+   padding-left: 18%;
+   padding-right: 18%;
+
+
+}
+
+.divider-flex {
+   display: flex;
+   margin-bottom: 70px;
+}
+
+.divider img {
+   width: 100%;
+
+
+
+}
+
+.divider {
+   width: 28%;
+   margin-left: 3%;
+   margin-right: 2%;
+   border-radius: 20px;
+   box-shadow: 5px 5px 20px gray;
+   height: 340px;
+   padding: 10px;
+
+}
+
+h3 {
+   color: black;
+   font-weight: 900;
+}
+
+.color {
+   color: black;
+   font-weight: 900;
+}
+
+.media-area {
+   width: 30%;
+   margin-left: 8%;
+   padding-left: 17px;
+   padding-right: 17px;
+
+
+}
+
+.box-shawdo {
+   box-shadow: 5px 5px 25px gray;
+   margin-left: 8%;
+   margin-right: 8%;
+   border-radius: 15px;
+
+}
+
+.fotter-color {
+   color: white;
+   text-align: center;
+}
+
+.hedding-center {
+   text-align: center;
+}
+
+
+
+.fotter-sec {
+   height: 150px;
+   background-color: #191970;
+}
+
+.top-padding {
+   padding-top: 15px;
 }
